@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration xmlns="http://eobjects.org/analyzerbeans/configuration/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<configuration>
   <configuration-metadata>
     <configuration-name>DataCleaner configuration</configuration-name>
-    <configuration-description>Configures DataCleaner's initial environment. This includes an example datastore and some example reference data.</configuration-description>
+    <configuration-description>Configures DataCleaner's initial environment.
+			This includes an example datastore and some example reference data.</configuration-description>
     <configuration-version>2.3</configuration-version>
     <author>eobjects.org</author>
   </configuration-metadata>
@@ -21,9 +22,9 @@
       <fail-on-inconsistencies>false</fail-on-inconsistencies>
     </csv-datastore>
     <csv-datastore name="custom datastore" description="Customized datastore for data samples.">
-      <filename>/home/ameadows/Documents/extract/quality/subscription_proxy/xxrh_product_price/xxrh_product_price_1.csv</filename>
+      <filename>meep</filename>
       <quote-char>"</quote-char>
-      <separator-char>;</separator-char>
+      <separator-char>\t</separator-char>
       <encoding>ISO-8859-1</encoding>
       <fail-on-inconsistencies>false</fail-on-inconsistencies>
     </csv-datastore>
