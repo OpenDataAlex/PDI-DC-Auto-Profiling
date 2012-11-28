@@ -1,0 +1,2 @@
+sed -i 's/<div class"analysisResultContainer">/<div class="analysisResultContainer">/g' $etl_file_extract_location_par"/quality/"$profile_source_name_par"/"$profile_source_table_name_par"/"$profile_source_table_name_par"_profile.xml"
+sed -i 's/<div="analyzerResultContainer">/<div class="analyzerResultContainer">/g' $etl_file_extract_location_par"/quality/"$profile_source_name_par"/"$profile_source_table_name_par"/"$profile_source_table_name_par"_profile.xml"

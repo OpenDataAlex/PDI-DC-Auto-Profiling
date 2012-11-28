@@ -18,8 +18,10 @@
 #
 #
 
+
+
 #standard params
-source /opt/pentaho/bash_defaults #stores PDI_BASE_DIR and PDI_CODE_BASE values.
+source /opt/pentaho/bash_defaults
 
 
 #parameters that can be passed from command line
@@ -63,6 +65,7 @@ then
 	echo '    SOURCE_NAME  : What source to analyze.'
         echo '    TABLE_NAME   : What table in the source to analyze.'
         echo '    QUERY_TYPE   : What type of query to run on the table from the source.'
+	echo '  MART_LOAD      : Manually load the profile data mart.'
 
 fi
 
@@ -86,7 +89,15 @@ if [ "$PROCESS_TYPE" == "analyze" ]
 
 then
 	echo 'Starting to Analyze Data.'
-	#sh $PDI_BASE_DIR/kitchen.sh /file:$PDI_CODE_BASE/quality/generic/profile_sample_generator_jb.kjb if [ "$SOURCE_NAME" ] then -param:profile_source_name_par=$SOURCE_NAME fi if [ "$TABLE_NAME" ] then -param:profile_source_table_name_par=$TABLE_NAME fi if ["$QUERY_TYPE"] then -param:profile_query_type_par=$QUERY_TYPE fi
-
+	
         sh $PDI_BASE_DIR/kitchen.sh /file:$PDI_CODE_BASE/quality/generic/profile_sample_generator_jb.kjb$ANALYZER_OPTS
+fi
+
+if [ "$PROCESS_TYPE" == "mart_load"]
+
+then
+
+       echo 'Starting to Load Profile Data Mart.'
+
+       sh $PDI_BASE_DIR/kitchen.sh /file:$PDI_CODE_BASE/quality/data_mart/profiling_data_mart_jb.kjb
 fi

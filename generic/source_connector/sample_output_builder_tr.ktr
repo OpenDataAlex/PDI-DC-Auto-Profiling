@@ -67,9 +67,31 @@
   </info>
   <notepads>
   </notepads>
-  
   <order>
   <hop> <from>De-serialize from file</from><to>Text file output</to><enabled>Y</enabled> </hop>  </order>
+  <step>
+    <name>De-serialize from file</name>
+    <type>CubeInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <file>
+      <name>${etl_file_extract_location_par}&#47;quality&#47;${profile_source_name_par}&#47;${profile_source_table_name_par}&#47;${profile_source_table_name_par}_${profile_sampling_query_pk_par}.ser</name>
+    </file>
+    <limit>0</limit>
+    <addfilenameresult>N</addfilenameresult>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>600</xloc>
+      <yloc>150</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>Text file output</name>
     <type>TextFileOutput</type>
@@ -116,29 +138,6 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>900</xloc>
-      <yloc>150</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>De-serialize from file</name>
-    <type>CubeInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <file>
-      <name>${etl_file_extract_location_par}&#47;quality&#47;${profile_source_name_par}&#47;${profile_source_table_name_par}&#47;${profile_source_table_name_par}_${profile_sampling_query_pk_par}.ser</name>
-    </file>
-    <limit>0</limit>
-    <addfilenameresult>N</addfilenameresult>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>600</xloc>
       <yloc>150</yloc>
       <draw>Y</draw>
       </GUI>

@@ -131,7 +131,7 @@
     </notepad>
   </notepads>
   <order>
-  <hop> <from>Get rows from result</from><to>Select values</to><enabled>N</enabled> </hop>  <hop> <from>Text file input 2</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Check For Empty Stream</from><to>Abort</to><enabled>Y</enabled> </hop>  <hop> <from>Type Date?</from><to>Check For Empty Stream</to><enabled>Y</enabled> </hop>  <hop> <from>Text file input</from><to>Type Date?</to><enabled>Y</enabled> </hop>  <hop> <from>Check For Empty Stream</from><to>Build Converted Names</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Build Transformer 2</from><to>Row denormaliser 5</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties</from><to>Build Descriptor</to><enabled>Y</enabled> </hop>  <hop> <from>Property Properties</from><to>Add XML</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3</from><to>Calculator 3</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5</from><to>Replace in string 2 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Converted Names</from><to>Transformer Values 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 2</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 3</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Converted Names</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties 2</from><to>Build Descriptor 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 3</from><to>Build Transformer 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Build Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5 2</from><to>Replace in string 2 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer</from><to>Row denormaliser 5 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3 2</from><to>Calculator 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2</from><to>XML Join 4</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor 2</from><to>XML Join 4</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 4</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 5</from><to>Select values 3</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Dummy (do nothing) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor 2 2</from><to>XML Join 4 2</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties 2 2</from><to>Build Descriptor 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants 2</from><to>Build Analyzer 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer 2</from><to>Row denormaliser 5 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3 2 2</from><to>Calculator 3 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5 2 2</from><to>Replace in string 2 3 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2 2</from><to>XML Join 4 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Add constants 2</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 4 2</from><to>XML Join 6</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 3</from><to>XML Join 6</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 6</from><to>Replace in string 3</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Get rows from result</from><to>Select values</to><enabled>N</enabled> </hop>  <hop> <from>Check For Empty Stream</from><to>Abort</to><enabled>Y</enabled> </hop>  <hop> <from>Type Date?</from><to>Check For Empty Stream</to><enabled>Y</enabled> </hop>  <hop> <from>Text file input</from><to>Type Date?</to><enabled>Y</enabled> </hop>  <hop> <from>Check For Empty Stream</from><to>Build Converted Names</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Build Transformer 2</from><to>Row denormaliser 5</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties</from><to>Build Descriptor</to><enabled>Y</enabled> </hop>  <hop> <from>Property Properties</from><to>Add XML</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3</from><to>Calculator 3</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5</from><to>Replace in string 2 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Converted Names</from><to>Transformer Values 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 2</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 3</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Converted Names</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties 2</from><to>Build Descriptor 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 3</from><to>Build Transformer 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Build Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5 2</from><to>Replace in string 2 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer</from><to>Row denormaliser 5 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3 2</from><to>Calculator 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2</from><to>XML Join 4</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor 2</from><to>XML Join 4</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 4</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 5</from><to>Select values 3</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Dummy (do nothing) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Descriptor 2 2</from><to>XML Join 4 2</to><enabled>Y</enabled> </hop>  <hop> <from>Descriptor Properties 2 2</from><to>Build Descriptor 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants 2</from><to>Build Analyzer 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer 2</from><to>Row denormaliser 5 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 3 2 2</from><to>Calculator 3 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 5 2 2</from><to>Replace in string 2 3 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2 2</from><to>XML Join 4 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Add constants 2</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 4 2</from><to>XML Join 6</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 3</from><to>XML Join 6</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 6</from><to>Replace in string 3</to><enabled>Y</enabled> </hop>  <hop> <from>Text file input 2</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Select values</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>Abort</name>
     <type>Abort</type>
@@ -406,7 +406,7 @@
            </partitioning>
        <calculation><field_name>output_name_part</field_name>
 <calc_type>CONSTANT</calc_type>
-<field_a> (as number)</field_a>
+<field_a> (as datetime)</field_a>
 <field_b/>
 <field_c/>
 <value_type>String</value_type>
@@ -420,7 +420,7 @@
 </calculation>
        <calculation><field_name>id_part</field_name>
 <calc_type>CONSTANT</calc_type>
-<field_a>_conv</field_a>
+<field_a>_datetime</field_a>
 <field_b/>
 <field_c/>
 <value_type>String</value_type>
@@ -1110,12 +1110,42 @@
       </field>
     </fields>
     <data>
-      <line> <item>Date masks</item><item>[yyyy-MM-dd HH:mm:ss.S,yyyy-MM-dd HH:mm:ss,yyyyMMddHHmmssZ,yyMMddHHmmssZ,yyyy-MM-dd,yyyy.MM.dd,yyyy&#47;MM&#47;dd,dd-MM-yyyy,dd.MM.yyyy,dd&#47;MM&#47;yyyy,MM-dd-yyyy,MM.dd.yyyy,MM&#47;dd&#47;yyyy]</item><item/> </line>
+      <line> <item>Date masks</item><item>[yyyy&#47;MM&#47;dd HH:mm:ss.SSS,yyyy-MM-dd HH:mm:ss.S,yyyy-MM-dd HH:mm:ss,yyyyMMddHHmmssZ,yyMMddHHmmssZ,yyyy-MM-dd,yyyy.MM.dd,yyyy&#47;MM&#47;dd,dd-MM-yyyy,dd.MM.yyyy,dd&#47;MM&#47;yyyy,MM-dd-yyyy,MM.dd.yyyy,MM&#47;dd&#47;yyyy]</item><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>1250</xloc>
       <yloc>175</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Replace in string</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>new_analyzer</in_stream_name>
+        <out_stream_name/>
+        <use_regex>no</use_regex>
+        <replace_string>&lt;transformation&gt;&lt;transformation&gt;</replace_string>
+        <replace_by_string>&lt;transformation&gt;</replace_by_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1250</xloc>
+      <yloc>50</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

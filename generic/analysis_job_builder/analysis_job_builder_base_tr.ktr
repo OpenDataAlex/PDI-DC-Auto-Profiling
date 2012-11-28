@@ -67,9 +67,8 @@
   </info>
   <notepads>
   </notepads>
-  
   <order>
-  <hop> <from>Add XML</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 2</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 2 2</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 3</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Calculator</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields</from><to>Add XML 2</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields 2</from><to>Add XML 3</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields 3</from><to>Add XML 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 4</from><to>Add XML</to><enabled>Y</enabled> </hop>  <hop> <from>De-serialize from file</from><to>Metadata structure of stream 2</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Calculator 4</to><enabled>Y</enabled> </hop>  <hop> <from>Metadata structure of stream 2</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Add Source</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 2</from><to>Add Source</to><enabled>Y</enabled> </hop>  <hop> <from>De-serialize from file 2</from><to>Metadata structure of stream 2</to><enabled>N</enabled> </hop>  <hop> <from>Select values</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  <hop> <from>Calculator</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add Source</from><to>Replace in string 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Number Fields?</from><to>Date Fields?</to><enabled>Y</enabled> </hop>  <hop> <from>Date Fields?</from><to>Set Date Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Number Fields?</from><to>Set Number Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Date Fields?</from><to>Boolean Fields?</to><enabled>Y</enabled> </hop>  <hop> <from>Boolean Fields?</from><to>Set Boolean Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Text file output</from><to>Sort rows</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows</from><to>Group by</to><enabled>Y</enabled> </hop>  <hop> <from>Group by</from><to>Add constants 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants 2</from><to>Number Fields?</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Add XML</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 2</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 2 2</from><to>XML Join 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 3</from><to>XML Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Calculator</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields</from><to>Add XML 2</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields 2</from><to>Add XML 3</to><enabled>Y</enabled> </hop>  <hop> <from>Base Analysis File Fields 3</from><to>Add XML 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator</from><to>Get Variables</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 4</from><to>Add XML</to><enabled>Y</enabled> </hop>  <hop> <from>De-serialize from file</from><to>Metadata structure of stream 2</to><enabled>Y</enabled> </hop>  <hop> <from>Get Variables</from><to>Calculator 4</to><enabled>Y</enabled> </hop>  <hop> <from>Metadata structure of stream 2</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 2</from><to>Add Source</to><enabled>Y</enabled> </hop>  <hop> <from>De-serialize from file 2</from><to>Metadata structure of stream 2</to><enabled>N</enabled> </hop>  <hop> <from>Select values</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  <hop> <from>Calculator</from><to>Text file output</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add Source</from><to>Replace in string 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Number Fields?</from><to>Date Fields?</to><enabled>Y</enabled> </hop>  <hop> <from>Date Fields?</from><to>Set Date Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Number Fields?</from><to>Set Number Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Date Fields?</from><to>Boolean Fields?</to><enabled>Y</enabled> </hop>  <hop> <from>Boolean Fields?</from><to>Set Boolean Variable</to><enabled>Y</enabled> </hop>  <hop> <from>Text file output</from><to>Sort rows</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows</from><to>Group by</to><enabled>Y</enabled> </hop>  <hop> <from>Group by</from><to>Add constants 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants 2</from><to>Number Fields?</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join</from><to>Add Source</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>Add Source</name>
     <type>XMLJoin</type>
@@ -81,7 +80,7 @@
            <schema_name/>
            </partitioning>
     <valueXMLField>analyzer_base</valueXMLField>
-    <targetXMLstep>Replace in string</targetXMLstep>
+    <targetXMLstep>XML Join</targetXMLstep>
     <targetXMLfield>xml_file_base_two</targetXMLfield>
     <sourceXMLstep>XML Join 2</sourceXMLstep>
     <sourceXMLfield>xml_file_base_four</sourceXMLfield>
@@ -89,7 +88,7 @@
     <joinCompareField/>
     <targetXPath>&#47;&#47;job</targetXPath>
     <encoding>UTF-8</encoding>
-    <omitXMLHeader>N</omitXMLHeader>
+    <omitXMLHeader>Y</omitXMLHeader>
     <omitNullValues>N</omitNullValues>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -188,6 +187,20 @@
         </field>
       <field>
         <name>transformation</name>
+        <element/>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <attribute>N</attribute>
+        <attributeParentName/>
+        </field>
+      <field>
+        <name>analysis</name>
         <element/>
         <type>String</type>
         <format/>
@@ -423,9 +436,19 @@
         <length>-1</length>
         <precision>-1</precision>
       </field>
+      <field>
+        <name>analysis</name>
+        <type/>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
     </fields>
     <data>
-      <line> <item>http:&#47;&#47;eobjects.org&#47;analyzerbeans&#47;job&#47;1.0</item><item/> </line>
+      <line> <item>http:&#47;&#47;eobjects.org&#47;analyzerbeans&#47;job&#47;1.0</item><item/><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -839,7 +862,7 @@
            <schema_name/>
            </partitioning>
     <file>
-      <name>&#47;home&#47;ameadows&#47;Documents&#47;extract&#47;quality&#47;subscription_proxy&#47;xxrh_product_constraint&#47;xxrh_product_constraint_2.ser</name>
+      <name>&#47;home&#47;ameadows&#47;Desktop&#47;test.ser</name>
     </file>
     <limit>0</limit>
     <addfilenameresult>N</addfilenameresult>
@@ -1014,36 +1037,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>350</xloc>
       <yloc>625</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Replace in string</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>xml_file_base_two</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>&lt;&#47;job&gt;</replace_string>
-        <replace_by_string>&lt;analysis&gt;&lt;&#47;analysis&gt;&lt;&#47;job&gt;</replace_by_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1500</xloc>
-      <yloc>225</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1379,7 +1372,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>75</xloc>
-      <yloc>475</yloc>
+      <yloc>450</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

@@ -67,7 +67,7 @@
   </info>
   <notepads>
   </notepads>
-  
+ 
   <order>
   <hop> <from>Table input</from><to>Copy rows to result</to><enabled>Y</enabled> </hop>  </order>
   <step>
@@ -98,31 +98,3 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>Profile Test</connection>
-    <sql>SELECT
-  profile_source_name
-, profile_source_connection_name
-, profile_source_tunnel_script
-FROM profile_source ps
-JOIN profile_source_connection psc ON ps.profile_source_connection = psc.profile_source_connection_id
-WHERE profile_source_name != &apos;unknown&apos;
-</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>450</xloc>
-      <yloc>100</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step_error_handling>
-  </step_error_handling>
-   <slave-step-copy-partition-distribution>
-</slave-step-copy-partition-distribution>
-   <slave_transformation>N</slave_transformation>
-</transformation>

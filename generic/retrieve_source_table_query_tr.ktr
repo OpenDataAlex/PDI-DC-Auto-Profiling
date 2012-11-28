@@ -67,7 +67,6 @@
   </info>
   <notepads>
   </notepads>
- 
   <order>
   <hop> <from>Retrieve Table Queries</from><to>Copy rows to result</to><enabled>Y</enabled> </hop>  </order>
   <step>
@@ -98,38 +97,3 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>Profile Test</connection>
-    <sql>SELECT
-  profile_sampling_query
-, profile_sampling_query_pk
-, profile_source_table_fk
-, profile_source_connection_name
-, profile_source_table_name
-, profile_query_trype
-FROM profile_sampling_query psq
-JOIN profile_source_table pst ON psq.profile_source_table_fk = pst.profile_source_table_pk
-JOIN profile_source ps ON  pst.profile_source_fk = ps.profile_source_id
-JOIN profile_source_connection psc ON ps.profile_source_connection = psc.profile_source_connection_id
-WHERE profile_source_name = &quot;${profile_source_name_par}&quot;
-  AND profile_source_table_name = &quot;${profile_source_table_name_par}&quot;
-
-</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>Y</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>175</xloc>
-      <yloc>150</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step_error_handling>
-  </step_error_handling>
-   <slave-step-copy-partition-distribution>
-</slave-step-copy-partition-distribution>
-   <slave_transformation>N</slave_transformation>
-</transformation>

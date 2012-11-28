@@ -24,7 +24,7 @@
     <csv-datastore name="custom datastore" description="Customized datastore for data samples.">
       <filename>meep</filename>
       <quote-char>"</quote-char>
-      <separator-char>\t</separator-char>
+      <separator-char>	</separator-char>
       <encoding>ISO-8859-1</encoding>
       <fail-on-inconsistencies>false</fail-on-inconsistencies>
     </csv-datastore>

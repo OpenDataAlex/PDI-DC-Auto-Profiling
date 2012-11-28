@@ -68,7 +68,6 @@
   </info>
   <notepads>
   </notepads>
-  
   <order>
   <hop> <from>Get System Info</from><to>Find Source ID</to><enabled>Y</enabled> </hop>  <hop> <from>Find Source ID</from><to>Add constants</to><enabled>Y</enabled> </hop>  <hop> <from>Find Table ID</from><to>Insert &#47; Update</to><enabled>Y</enabled> </hop>  <hop> <from>Block this step until steps finish</from><to>Find Table ID</to><enabled>Y</enabled> </hop>  <hop> <from>Load Table Data</from><to>Block this step until steps finish</to><enabled>Y</enabled> </hop>  <hop> <from>Add constants</from><to>Block this step until steps finish 2</to><enabled>Y</enabled> </hop>  <hop> <from>Block this step until steps finish 2</from><to>Load Table Data</to><enabled>Y</enabled> </hop>  <hop> <from>Microsoft Excel Input</from><to>Get System Info</to><enabled>Y</enabled> </hop>  </order>
   <step>
@@ -160,48 +159,6 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>Profile Test</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>profile_source</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>source_name</name>
-        <field>profile_source_name</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>profile_source_id</name>
-        <rename>profile_source_id</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>225</xloc>
-      <yloc>250</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Find Table ID</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>Profile Test</connection>
     <cache>Y</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
@@ -272,86 +229,6 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>Profile Test</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>profile_sampling_query</table>
-      <key>
-        <name>profile_source_table_pk</name>
-        <field>profile_source_table_fk</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>query_source</name>
-        <field>profile_query_source</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>query_type</name>
-        <field>profile_query_type</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>table_query_number</name>
-        <field>table_query_number</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>profile_sampling_query</name>
-        <rename>custom_query</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>profile_source_table_fk</name>
-        <rename>profile_source_table_pk</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>profile_query_type</name>
-        <rename>query_type</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>profile_query_source</name>
-        <rename>query_source</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>table_query_number</name>
-        <rename>table_query_number</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>w_create_dt</name>
-        <rename>load_datetime</rename>
-        <update>N</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1200</xloc>
-      <yloc>250</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Load Table Data</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>Profile Test</connection>
     <schema/>
     <table>profile_source_table</table>
     <commit>1000</commit>

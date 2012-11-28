@@ -131,7 +131,7 @@
     </notepad>
     <notepad>
       <note>Value Distribution Analyzer</note>
-      <xloc>150</xloc>
+      <xloc>125</xloc>
       <yloc>775</yloc>
       <width>166</width>
       <heigth>26</heigth>
@@ -151,9 +151,8 @@
       <drawshadow>Y</drawshadow>
     </notepad>
   </notepads>
-  
   <order>
-  <hop> <from>Add Char Set Analyzer</from><to>Select values 5</to><enabled>Y</enabled> </hop>  <hop> <from>Add Join Value</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add Join Value 2</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add Pattern Finder Analyzer</from><to>Select values 5 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add String Analyzer</from><to>Select values 5 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 4</from><to>Build Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 5</from><to>Build Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 6</from><to>Row denormaliser 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 7</from><to>Row denormaliser 3</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 8</from><to>Row denormaliser 4</to><enabled>Y</enabled> </hop>  <hop> <from>Analyzer Items</from><to>Build Analyzer Name 2</to><enabled>Y</enabled> </hop>  <hop> <from>Analyzer Items</from><to>Join Rows (cartesian product) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Base</from><to>Add Join Value 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Name</from><to>Add XML 6</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Name 2</from><to>Add XML 8</to><enabled>Y</enabled> </hop>  <hop> <from>Build Char Set Analyzer</from><to>Add Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Build Complete Analyzer</from><to>Add String Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Build Final Column Analysis</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>Build Property</from><to>Sort rows 3</to><enabled>Y</enabled> </hop>  <hop> <from>Build properties</from><to>Sort rows 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Char Set Distr Properties</from><to>Add XML 5</to><enabled>Y</enabled> </hop>  <hop> <from>Data Grid</from><to>Join Rows (cartesian product) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Dummy (do nothing) 3</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Transformer Values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Add XML 4</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 3</from><to>Add XML 7</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 3</from><to>Dummy (do nothing) 4</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 4</from><to>Analyzer Items</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product)</from><to>Build properties</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product) 2</from><to>Build Property</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Remove Ending Tag</to><enabled>Y</enabled> </hop>  <hop> <from>Pattern Finder Properties</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Remove Ending Tag</from><to>Build Complete Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Remove spare Analysis Tags</from><to>Add String Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Remove spare Analysis Tags 2</from><to>Add Value Distribution Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 2</from><to>Calculator 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Add Join Value</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 4</from><to>Build Final Column Analysis</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 2</from><to>Replace in string 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 3</from><to>Replace in string 3</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 4</from><to>Replace in string 4</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 4</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5</from><to>Add Pattern Finder Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5 2</from><to>Remove spare Analysis Tags</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5 2 2</from><to>Remove spare Analysis Tags 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 6</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 2</from><to>Select values 4</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 3</from><to>Select values 6</to><enabled>Y</enabled> </hop>  <hop> <from>String Analyzer Properties</from><to>Build Analyzer Base</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 2</from><to>Build Analyzer Name</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 2</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 3</from><to>Add Pattern Finder Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 5</from><to>Add Value Distribution Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Text file input</from><to>Dummy (do nothing) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Get rows from result</from><to>Add Char Set Analyzer</to><enabled>N</enabled> </hop>  <hop> <from>Text file input 2</from><to>Add Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add Value Distribution Analyzer</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  </order>
+  <hop> <from>Add Char Set Analyzer</from><to>Select values 5</to><enabled>Y</enabled> </hop>  <hop> <from>Add Join Value</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add Join Value 2</from><to>Merge Join</to><enabled>Y</enabled> </hop>  <hop> <from>Add Pattern Finder Analyzer</from><to>Select values 5 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add String Analyzer</from><to>Select values 5 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 4</from><to>Build Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 5</from><to>Build Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 6</from><to>Row denormaliser 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 7</from><to>Row denormaliser 3</to><enabled>Y</enabled> </hop>  <hop> <from>Add XML 8</from><to>Row denormaliser 4</to><enabled>Y</enabled> </hop>  <hop> <from>Analyzer Items</from><to>Build Analyzer Name 2</to><enabled>Y</enabled> </hop>  <hop> <from>Analyzer Items</from><to>Join Rows (cartesian product) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Base</from><to>Add Join Value 2</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Name</from><to>Add XML 6</to><enabled>Y</enabled> </hop>  <hop> <from>Build Analyzer Name 2</from><to>Add XML 8</to><enabled>Y</enabled> </hop>  <hop> <from>Build Char Set Analyzer</from><to>Add Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Build Complete Analyzer</from><to>Add String Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Build Final Column Analysis</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>Build Property</from><to>Sort rows 3</to><enabled>Y</enabled> </hop>  <hop> <from>Build properties</from><to>Sort rows 2</to><enabled>Y</enabled> </hop>  <hop> <from>Calculator 3 2</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Char Set Distr Properties</from><to>Add XML 5</to><enabled>Y</enabled> </hop>  <hop> <from>Data Grid</from><to>Join Rows (cartesian product) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Dummy (do nothing) 3</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing)</from><to>Transformer Values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Add XML 4</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 2</from><to>Dummy (do nothing)</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 3</from><to>Add XML 7</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 3</from><to>Dummy (do nothing) 4</to><enabled>Y</enabled> </hop>  <hop> <from>Dummy (do nothing) 4</from><to>Analyzer Items</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product)</from><to>Build properties</to><enabled>Y</enabled> </hop>  <hop> <from>Join Rows (cartesian product) 2</from><to>Build Property</to><enabled>Y</enabled> </hop>  <hop> <from>Merge Join</from><to>Remove Ending Tag</to><enabled>Y</enabled> </hop>  <hop> <from>Pattern Finder Properties</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>Remove Ending Tag</from><to>Build Complete Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Remove spare Analysis Tags</from><to>Add String Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 2 2</from><to>Calculator 3 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 3</from><to>Add Join Value</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string 4</from><to>Build Final Column Analysis</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 2</from><to>Replace in string 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 3</from><to>Replace in string 3</to><enabled>Y</enabled> </hop>  <hop> <from>Row denormaliser 4</from><to>Replace in string 4</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 4</from><to>XML Join 3</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5</from><to>Add Pattern Finder Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5 2</from><to>Remove spare Analysis Tags</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 5 2 2</from><to>Remove spare Analysis Tags 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 6</from><to>XML Join 5</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 2</from><to>Select values 4</to><enabled>Y</enabled> </hop>  <hop> <from>Sort rows 3</from><to>Select values 6</to><enabled>Y</enabled> </hop>  <hop> <from>String Analyzer Properties</from><to>Build Analyzer Base</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 2</from><to>Build Analyzer Name</to><enabled>Y</enabled> </hop>  <hop> <from>Transformer Values 2</from><to>Join Rows (cartesian product)</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 3</from><to>Add Pattern Finder Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>XML Join 5</from><to>Add Value Distribution Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Text file input</from><to>Dummy (do nothing) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Get rows from result</from><to>Add Char Set Analyzer</to><enabled>N</enabled> </hop>  <hop> <from>Replace in string</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Copy rows to result</to><enabled>N</enabled> </hop>  <hop> <from>Text file input 2</from><to>Add Char Set Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Remove spare Analysis Tags 2</from><to>Add Value Distribution Analyzer</to><enabled>Y</enabled> </hop>  <hop> <from>Add Value Distribution Analyzer</from><to>Replace in string</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>Add Char Set Analyzer</name>
     <type>XMLJoin</type>
@@ -322,7 +321,7 @@
     <joinCompareField/>
     <targetXPath>&#47;&#47;job&#47;analysis</targetXPath>
     <encoding>UTF-8</encoding>
-    <omitXMLHeader>N</omitXMLHeader>
+    <omitXMLHeader>Y</omitXMLHeader>
     <omitNullValues>N</omitNullValues>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -713,7 +712,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>525</xloc>
+      <xloc>500</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -777,7 +776,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>275</xloc>
+      <xloc>250</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -952,7 +951,7 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>400</xloc>
+      <xloc>375</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1087,7 +1086,7 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>950</xloc>
+      <xloc>925</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1142,7 +1141,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>650</xloc>
+      <xloc>625</xloc>
       <yloc>750</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1382,7 +1381,7 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>350</xloc>
+      <xloc>325</xloc>
       <yloc>750</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1532,7 +1531,7 @@
     </compare>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>475</xloc>
+      <xloc>450</xloc>
       <yloc>750</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1812,7 +1811,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1525</xloc>
+      <xloc>1500</xloc>
       <yloc>925</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1902,7 +1901,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>800</xloc>
+      <xloc>775</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -2022,7 +2021,7 @@
         </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>650</xloc>
+      <xloc>625</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>
@@ -2138,7 +2137,7 @@
       </remove>      <remove>        <name>input</name>
       </remove>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1125</xloc>
+      <xloc>1100</xloc>
       <yloc>750</yloc>
       <draw>Y</draw>
       </GUI>
@@ -2202,7 +2201,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>775</xloc>
+      <xloc>750</xloc>
       <yloc>750</yloc>
       <draw>Y</draw>
       </GUI>
@@ -2779,7 +2778,7 @@
     <omitNullValues>N</omitNullValues>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1125</xloc>
+      <xloc>1100</xloc>
       <yloc>825</yloc>
       <draw>Y</draw>
       </GUI>

@@ -67,7 +67,6 @@
   </info>
   <notepads>
   </notepads>
-  
   <order>
   <hop> <from>Get rows from result</from><to>Get System Info</to><enabled>Y</enabled> </hop>  <hop> <from>Get System Info</from><to>Set Variables</to><enabled>Y</enabled> </hop>  </order>
   <step>

@@ -27,7 +27,6 @@
             <description/>
         </parameter>
     </parameters>
-  
     <slaveservers>
     </slaveservers>
 <job-log-table><connection/>
