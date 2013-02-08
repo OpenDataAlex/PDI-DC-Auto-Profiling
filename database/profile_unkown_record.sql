@@ -1,7 +1,7 @@
 INSERT INTO profile_source_connection
-(profile_source_connection_name, w_create_dt)
+(profile_source_connection_name, w_create_dt, profile_source_connection_type)
 VALUES
-('unknown', NOW());
+('unknown', NOW(), 'unknown');
 
 UPDATE profile_source_connection
 SET profile_source_connection_id = 0
