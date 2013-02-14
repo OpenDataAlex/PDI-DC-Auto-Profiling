@@ -28,6 +28,16 @@ SET profile_source_table_pk = 0
 WHERE profile_source_table_name = 'unknown'
 LIMIT 1;
 
+INSERT INTO profile_source_table_column
+(profile_source_table_column_name, profile_source_table_pk, w_create_dt)
+VALUES
+('unknown', 0, NOW());
+
+UPDATE profile_source_table_column
+SET profile_source_table_column_pk = 0
+WHERE profile_source_table_pk = 0
+LIMIT 1;
+
 INSERT INTO profile_source_table_number_analysis
 (profile_source_table_column_pk, w_create_dt)
 VALUES
